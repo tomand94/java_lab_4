@@ -1,8 +1,10 @@
+/* klasa implementuje interfejs Pojazd */
 public class SamochodOsobowy implements Pojazd {
     private int czas;
     private int zuzylPaliwa;
     private String pojazd;
 
+    /* @Override - informuje nas, że nadpisujemy metodę z interfejsu (dodane opcjonalnie) */
     @Override
     public void setPojazd(String pojazd) {
         this.pojazd = pojazd;
