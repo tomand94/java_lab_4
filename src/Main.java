@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         /* objekt samochod1 deklarujemy jako typ klasy SamochodOsobowy i
-        * implementujemy pustym konstruktorem z klasy SamochodOsobowy */
+         * implementujemy pustym konstruktorem z klasy SamochodOsobowy */
         SamochodOsobowy samochod1 = new SamochodOsobowy();
         samochod1.setPojazd("Mercedes");
         samochod1.czasPracy(7);
