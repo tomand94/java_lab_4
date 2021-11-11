@@ -2,7 +2,6 @@
 import classes.SamochodOsobowy;
 import enums.PaliwoEnum;
 import enums.TypPojazduEnum;
-import interfaces.Pojazd;
 import interfaces.Samochod;
 
 public class Main {
