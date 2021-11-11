@@ -1,46 +1,42 @@
-/* importy używanych elementów, które są w innych paczkach */
-import classes.SamochodOsobowy;
-import enums.PaliwoEnum;
-import enums.TypPojazduEnum;
-import interfaces.Samochod;
 
 public class Main {
     public static void main(String[] args) {
 
-        SamochodOsobowy pojazd1 = new SamochodOsobowy();
-        pojazd1.setMarka("Fiat");
-        pojazd1.setPaliwo(PaliwoEnum.BENZYNA);
-        pojazd1.getTypPojazdu(TypPojazduEnum.O);
-        pojazd1.setWaga(2200.22);
-        pojazd1.setPrzebieg(40500);
-        pojazd1.setCiezarPaliwa(45);
+        /* zad.1
+        a) napisać interfejs CzlowiekI
+        b) zadeklarować 2 metody
 
-        /* przykład dostępu do parametrów enuma */
-        System.out.println(pojazd1.getTyp());
-        System.out.println(TypPojazduEnum.O.name());
-        System.out.println(TypPojazduEnum.O.getTyp());
-        System.out.println(TypPojazduEnum.O.getKlasyfikacja());
-        System.out.println(TypPojazduEnum.O.getTypPojazdu());
+        c) napisać interfejs StudentI który dziedziczy po interfejsie CzlowiekI
+        d) zadeklarować 3 metody
 
-        /* wywołanie metody to string na objekcie klasy SamochodOsobowy */
-        System.out.println("\n" + pojazd1.toString());
+        e) napisać interfejs PracownikI który dziedziczy po interfejsie CzlowiekI
+        f) zadeklarować 3 metody
+         */
 
-        System.out.println();
-//        ****************************************************************************
+        /* zad.2
+        a) napisać klasę Student która będzie implementować interfejs StudentI
+        b) napisać klasę Pracownik która będzie implementować interfejs PracownikI
+        c) stworzyć pola, gettery i settery, metodę toString dla obu klas
+        (gettery i settery najlepiej wygenerować Code/Prawy myszy-->Generate-->getters/setters/toString)
+        */
 
-        /* jesli zadeklarujemy objekt interfejsem / klasą, implementowaną / dziedziczoną,
-         * to mamy dostęp tylko do metod z interfejsu/klasy Deklarującej,
-         * chyba, że wytypujemy objekt implementowany zawierający dodatkowe metody
-         * np. ((SamochodOsobowy) pojazd2).setWaga(18700.22); */
-        Samochod pojazd2 = new SamochodOsobowy();
-        pojazd2.setMarka("Star");
-        pojazd2.setPaliwo(PaliwoEnum.DIESEL);
-        pojazd2.getTypPojazdu(TypPojazduEnum.C);
-        ((SamochodOsobowy) pojazd2).setWaga(18700.22);
-        pojazd2.setPrzebieg(63500, 77000);
-        ((SamochodOsobowy) pojazd2).setCiezarPaliwa(200);
+        /* zad.3
+        a) stworzyć 2 objekty typu Student i uzupełnić wszystkie pola
+        b) stworzyć 2 objekty typu Pracownik i uzupełnić wszystkie pola
+        c) wypisać metody to string wszystkich objektów
 
-        System.out.println(pojazd2.toString());
+        zad.4 - Dla chętnych
+        a) stworzyć klasę Kierownik która będzie implementować interfejs PracownikI,
+        b) zaimplementować wszystkie metody, i stworzyć pola
+        c) stworzyć 2 objekty typu Kierownik i uzupełnić wszystkie pola,
+        d) stworzyć listę typu PracownikI --> List<PracownikI> listaPracownikow = new ArrayList<>();
+        e) dodać do niej objekty typu Kierownik i Pracownik
+        f) wypisać pętlą metodę toString() wszystkich elementów listy
+        */
 
+        /* zad5 - Dla chętnych
+        Stworzyć klasę która będzie implementować 2 lub 3 interfejsy następnie będzie
+        dziedziczona przez inną klasę
+        */
     }
 }
