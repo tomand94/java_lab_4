@@ -17,6 +17,7 @@ public class Main {
         a) napisać klasę Dom implementującą interfejs Budynek,
         b) zaimplementować wszystkie metody,
         c) stworzyć brakujące pola(prywatne), gettery i settery, napisać metodę toString
+        (gettery i settery najlepiej wygenerować Code/Prawy myszy-->Generate-->getters/setters/toString)
         d) stworzyć jedną dowolną metodę przez siebie
         */
 
