@@ -1,18 +1,30 @@
 public class Main {
     public static void main(String[] args) {
-        /* objekt samochod1 deklarujemy jako typ klasy SamochodOsobowy i
-         * implementujemy pustym konstruktorem z klasy SamochodOsobowy */
-        SamochodOsobowy samochod1 = new SamochodOsobowy();
-        samochod1.setPojazd("Mercedes");
-        samochod1.czasPracy(7);
-        samochod1.podsumowanie(15);
 
-        System.out.println();
+        /* zad.1
+        a) Stwożyć interfejs Budynek,
+        b) interfejs powinien mieć metody:
+            - double powierzchnia(double pow);
+            - String adresBudynku(String adres);
+            - int liczbaOkien(int value);
+            - void liczbaMieszkancow(int value);
+            - void kolorDomu(KolorEnum kolor);
+        c) stworzyć enum KolorEnum z przykładowymi kolorami,
+        c) stworzyć jedną metodę z 2 parametrami wymyśloną przez siebie,
+        */
 
-        /* Deklarujemy objekt samochod2 typem interfejsu Pojazd - bardziej elastyczne rozwiązanie */
-        Pojazd samochod2 = new SamochodOsobowy();
-        samochod2.setPojazd("Fiat");
-        samochod2.czasPracy(9);
-        samochod2.podsumowanie(28);
+        /* zad.2
+        a) napisać klasę Dom implementującą interfejs Budynek,
+        b) zaimplementować wszystkie metody,
+        c) stworzyć brakujące pola(prywatne), gettery i settery, napisać metodę toString
+        d) stworzyć jedną dowolną metodę przez siebie
+        */
+
+        /* zad.3
+        a) w klasie Main stworzyć 2 objekty typu Dom deklarując pierwszy objekt Typem Dom,
+        drugi objekt typem Budynek,
+        b) wykorzystać wszystkie metody do implementacji pól
+        c) wyświetlić w konsoli metodę toString (na obu objektach) opisującą zachowanie klasy Dom
+        */
     }
 }
