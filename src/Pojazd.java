@@ -6,6 +6,7 @@ public interface Pojazd {
      * wszystkie metody bez selektora widoczności są metodami publicznymi */
     void setPojazd(String pojazd);
 
+    /* metody nie mają ciała tylko deklarację */
     String getPojazd();
 
     void start();
