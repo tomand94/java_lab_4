@@ -5,7 +5,7 @@ public class Main {
         /* zad.1
         a) stworzyć klasę abstrakcyjną Figua
         b) stworzyć metody abstrakcyjne pole() i obwod()
-        c) stworzyć zwykłą metodę opsFigury(String figura), która będzie zwracała tekst 'To jest figura: .....'
+        c) stworzyć zwykłą metodę opisFigury(String figura), która będzie zwracała tekst 'To jest figura: .....'
         */
 
         /* zad.2
