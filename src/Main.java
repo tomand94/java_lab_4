@@ -16,14 +16,14 @@ public class Main {
         /* zad.2
         a) napisać klasę Student która będzie implementować interfejs StudentI
         b) napisać klasę Pracownik która będzie implementować interfejs PracownikI
-        c) stworzyć pola, gettery i settery, metodę toString dla obu klas
-        (gettery i settery najlepiej wygenerować Code/Prawy myszy-->Generate-->getters/setters/toString)
+        c) stworzyć pola, gettery i settery, metodę toString dla obu klas, (constructor z przeciążeniem - jak ktoś chce ),
+        (gettery i settery / toString() ..., najlepiej wygenerować: Code/Prawy myszy-->Generate-->getters/setters/toString)
         */
 
         /* zad.3
         a) stworzyć 2 objekty typu Student i uzupełnić wszystkie pola
         b) stworzyć 2 objekty typu Pracownik i uzupełnić wszystkie pola
-        c) wypisać metody to string wszystkich objektów
+        c) wypisać metody toString() wszystkich objektów
 
         zad.4 - Dla chętnych
         a) stworzyć klasę Kierownik która będzie implementować interfejs PracownikI,
@@ -31,7 +31,7 @@ public class Main {
         c) stworzyć 2 objekty typu Kierownik i uzupełnić wszystkie pola,
         d) stworzyć listę typu PracownikI --> List<PracownikI> listaPracownikow = new ArrayList<>();
         e) dodać do niej objekty typu Kierownik i Pracownik
-        f) wypisać pętlą metodę toString() wszystkich elementów listy
+        f) wypisać pętlą metody toString() wszystkich elementów listy
         */
 
         /* zad5 - Dla chętnych
