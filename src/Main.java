@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
 
         /* zad.1
-        a) stworzyć klasę abstrakcyjną Figua
+        a) stworzyć klasę abstrakcyjną Figura
         b) stworzyć metody abstrakcyjne pole() i obwod()
-        c) stworzyć zwykłą metodę opisFigury(String figura), która będzie zwracała tekst 'To jest figura: .....'
+        c) stworzyć zwykłą metodę nazwaFigury(String figura), która będzie zwracała tekst 'To jest figura: .....',
         */
 
         /* zad.2
