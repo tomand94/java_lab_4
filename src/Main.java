@@ -5,12 +5,12 @@ public class Main {
 
         /* zad.1
         a) stworzyć tablicę 6-cio elementową, uzupełnić przykładowymi wartościami (dowolny typ tablicy),
-        b) wprowadzić z konsoli numer indexu tablicy który chcemy wyświetlić, użyć metody next() --> scan.next();
+        b) wprowadzić z klawiatury numer indexu tablicy który chcemy wyświetlić, użyć metody next() --> scan.next();
         c) zabezpieczyć kod przed wprowadzeniem:
            - za dużej liczby (index > tab.length),
            - wprowadzeniem innego znaku niż liczba,
         d) użyć metody finally aby wyświetlić komunikat zakończenia programu
-        e) wprowadzanie indeksu niech będzie zapetlone do momentu wprowadzenia poprawnego indeksu
+        e) wprowadzanie indeksu niech będzie zapętlone do momentu wprowadzenia poprawnego indeksu
 
            PODPOWIEDZI:
            scan.next() - można wprowadzać dowolny znak z klawiatury,
