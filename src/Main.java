@@ -10,7 +10,7 @@ public class Main {
             - void liczbaMieszkancow(int value);
             - void kolorDomu(KolorEnum kolor);
         c) stworzyć enum KolorEnum z przykładowymi kolorami,
-        c) stworzyć jedną metodę z 2 parametrami wymyśloną przez siebie,
+        d) stworzyć jedną metodę z 2 parametrami wymyśloną przez siebie,
         */
 
         /* zad.2
