@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
 
@@ -21,6 +22,29 @@ public class Main {
            white(!isIndexCorrect) {}
         */
 
+        String[] tab = {"poniedzialek", "wtorek", "sroda", "czwartek", "piatek", "sobota"};
+        Scanner scan = new Scanner(System.in);
+
+        int index;
+
+        boolean error = true;
+
+        do {
+            try {
+                System.out.println("wprowadz index: ");
+                index = Integer.parseInt(scan.next());
+                System.out.println(tab[index]);
+
+                error = false;
+            } catch (ArrayIndexOutOfBoundsException ex) {
+                System.out.println("za duza liczba");
+                scan.next();
+            } catch (NumberFormatException ex) {
+                System.out.println("zly format");
+                scan.next();
+            }
+        } while (error);
+
 
 
         /* zad.2
@@ -28,6 +52,23 @@ public class Main {
         b) stworzyć dowolny przykład z ArithmeticException ,
         c) stworzyć dowolny przykład z 2 lub 3 blokami catch i z blokiem finally,
          */
+
+        try {
+            String test = null;
+            test.toString();
+        } catch (NullPointerException ex) {
+            throw ex;
+        }
+
+        int d = 0;
+        int n = 20;
+        try {
+            int z = n / d;
+        } catch (ArithmeticException e) {
+            throw e;
+        }
+
+
 
     }
 }
